@@ -1,0 +1,84 @@
+@media (max-width: 1200px) {	
+	.reviews {
+		width: 960px;
+		margin: 0 auto;	
+	}
+	.people {
+		width: 400px;
+		margin-left: 50px;
+	}
+}
+@media (max-width: 992px) {
+	.reviews {
+		width: 760px;
+		margin: 0 auto;	
+	}
+	.reviews h1
+	.reviews h2 {
+		margin-top: 20px;
+	}
+	.ple {
+		margin-top: 100px;
+	}
+	.people h1,
+	.people h2	{
+		margin-top: 0px;
+		font-size: 20px;
+	}
+	.people span {
+		font-size: 15px;
+	}	
+}
+@media (max-width: 768px) {
+	.reviews {
+		width: 568px;	
+	}
+	.ple {
+		margin-top: 200px
+	}
+	.people span {
+		font-size: 10px;
+	}
+	.reviews h1,
+	.reviews h2	{
+		margin-top: 30px;
+		font-size: 15px;
+	}
+}
+@media (max-width: 560px){
+	.reviews {
+		margin: 0 auto;
+		width: 100%;		
+	}
+	.people span {
+		font-size: 10px;
+		margin-top: 10px;
+	}
+	.people h1,
+	.people h2	{
+		margin-top: -20px;
+		font-size: 10px;
+	}
+	.ple {
+		margin-top: 150px;
+	}
+	.people {
+		width: 200px;
+		margin-top: -130px;
+	}
+	.ph {
+		transform: scale(0.7);
+		margin-top: -20px;
+		margin-left: -60px;
+		margin-right: -40px;
+	}
+}
+@media (max-width: 260px){
+	.reviews {
+	width: 100%;
+	background-color: red;
+	}
+	.people {
+		width: 150px;
+	}
+}

@@ -1,0 +1,105 @@
+@media (max-width: 1200px) {
+	.serv {
+		width: 960px;
+		margin: 0 auto;
+	}
+	.services {
+		justify-content: center;
+		margin-left: -210px;
+
+	}
+	.branding,
+	.design,
+	.development,
+	.rocket {
+		margin: 0;		
+	}
+}
+@media (max-width: 992px) {
+	.serv {
+		width: 760px;
+		margin: 0 auto;
+	}
+	.services {
+		justify-content: center;
+		margin-left: -320px;
+	}
+	.branding,
+	.design,
+	.development,
+	.rocket {
+		width: 150px;
+		margin: 0;
+	}
+}
+@media (max-width: 768px) {
+	.serv {
+		width: 568px;
+		margin: 0 auto;
+	}
+	.services {
+		display: flex;
+		flex-wrap: wrap;
+		transform: scale(0.5);
+		margin-left: -450px;
+	}
+	.branding,
+	.design,
+	.development,
+	.rocket{
+		width: 400px;
+		margin-left: 130px;
+		
+	}
+}
+@media (max-width: 560px){
+	.serv {
+		margin: 0 auto;
+		width: 100%;				
+	}
+	.services {
+		margin-top: -90px;
+		width: 100%;
+		display: block;
+		float: none;
+		margin-left: -10px;
+			}
+	.ln-3 h2 {
+		font-size: 10px;
+	}
+	.branding,
+	.design,
+	.development,
+	.rocket  img {
+		transform: scale(0.7);
+	}
+	.branding,
+	.design,
+	.development,
+	.rocket span {
+			font-size: 15px;
+			margin-top: -40px;
+	}
+	.branding,
+	.design,
+	.development,
+	.rocket{
+		width: 150px;
+		margin-top: -120px;		
+	}
+}
+@media (max-width: 260px){
+	.serv {
+	width: 100%;
+	}
+	.ln-3 h1 {
+		font-size: 10px;
+	}
+	.branding,
+	.design,
+	.development,
+	.rocket {
+		margin-left: -15px;
+	}
+}
+
